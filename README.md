@@ -33,4 +33,26 @@ Module 4: Business Process Model and Notation (BPMN)
 
 Module 5. Process Mining
 
-1. Create Google Cloud Storage Bucket
+**1. Foundations(Workflow Patterns)**
+
+(1)Value Exchange and Business Functions:   ------  (2)Business Process Direction:   ------(3)Types of Business Process Modeling Languages
+
+<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991457-6a95ce57-88a8-4472-a0b2-8bf0870190ae.png" alt="" width="200" height="400">               <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991618-4761b5aa-67f9-426a-b32f-bfb05f054294.png" alt="" width="500" height="380">     <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991854-d1482da3-5521-401e-b6cd-5ccf276292eb.png" alt="" width="220" height="400">
+
+
+(4)Business Process Modeling Lifecycle:
+
+<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991833-8b5a9ff7-4ffa-4313-ab6d-9adaf77a57ee.png" alt="" width="1000" height="500"> 
+
+(5)Aspects in evaluating Business Process: 
+
+  i. Expressiveness: workflow patterns (control, data, resource).
+  
+  ii. Understandability: comprehension (can use colors, annotations, etc.).
+  
+  iii. Complexity: Enable comparing models & Improving models.
+ 
+ (6) Control-flow Patterns
+ 
+
+
