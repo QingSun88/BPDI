@@ -33,18 +33,19 @@ Module 4: Business Process Model and Notation (BPMN)
 
 Module 5. Process Mining
 
-**1. Foundations(Workflow Patterns)**
 
-(1)Value Exchange and Business Functions:   ------  (2)Business Process Direction:   ------(3)Types of Business Process Modeling Languages
+**Module 1. Foundations(Workflow Patterns)**
+
+1. Value Exchange and Business Functions:   ------  2. Business Process Direction:   ------3. Types of Business Process Modeling Languages
 
 <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991457-6a95ce57-88a8-4472-a0b2-8bf0870190ae.png" alt="" width="200" height="400">               <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991618-4761b5aa-67f9-426a-b32f-bfb05f054294.png" alt="" width="500" height="380">     <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991854-d1482da3-5521-401e-b6cd-5ccf276292eb.png" alt="" width="220" height="400">
 
 
-(4)Business Process Modeling Lifecycle:
+4. Business Process Modeling Lifecycle:
 
 <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991833-8b5a9ff7-4ffa-4313-ab6d-9adaf77a57ee.png" alt="" width="800" height="400"> 
 
-(5)Aspects in evaluating Business Process: 
+5. Aspects in evaluating Business Process: 
 
    i. Expressiveness: workflow patterns (control, data, resource).
   
@@ -53,7 +54,7 @@ Module 5. Process Mining
    iii. Complexity: Enable comparing models & Improving models.
 
  
- (6) Control-flow Patterns
+ 6. Control-flow Patterns
  
     *Sequence   --- *parallel Split   --- *Synchronoization   --- *Exclusive Choice  ---  *Simple Merge   
     
@@ -79,7 +80,56 @@ Module 5. Process Mining
  <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993951-30f2f215-090b-4f92-9348-d1257c2bd424.png" alt="" width="150" height="50"> ---
  <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171994005-9da9825a-7995-483a-8453-65277336508f.png" alt="" width="150" height="50">---
 
-(7) Presentation Patterns
+7. Measure the complexity
+   * NOA: number of activities
+
+   * NOAC: Number of activities and control-flow elements in a process (– Well structured model) include gateways but exclude events
+
+   * NOAIS: Number of activities, joins, and splits in a process (– Non-structured model), include all gateways but exclude events
+
+   * MCC: = edges -nodes + 2 , nodes include events, boundaries,etc.
+
+
+**Module 2: Petri Nets**
+
+1. Syntax and Semantics
+
+  1.1  Elements:  places (state of system)  <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/172011819-852b2d7d-105c-47c7-b082-6a4f7c8beff6.png" alt="" width="50" height="50">
+  transitions (actions / tasks)   <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/172011847-2415e12d-4784-46c0-8396-79df4981f13a.png" alt="" width="50" height="50">
+   arcs/ flows (connections)  <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/172011943-ab72451b-8697-457c-90e5-ecf5bbfdbe82.png" alt="" width="100" height="50">
+
+ 1.2 Rules:
+ 
+     1.2.1. can connect transactions to places and vice versa. Neither places to places nor transactions to transactions.
+     
+     1.2.2  Tokens: indicate if a state if fulfilled; represented by dots; places may hold zero or more tokens.
+     
+     1.2.3  Enablement: a transition is enabled if each of its input place contains at least one token.
+     
+     1.2.4  Firing: An enabled transition can fire(occur); when it fires, it consumes a token from each input place and produces a token for each output place.
+     
+ 1.3 Remarks:
+ 
+     1.3.1 Firing is atomic.
+     
+     1.3.2  Multiple transitions may be enabled, but only one fires at a time.
+     
+     1.3.3 The number of tokens may vary if there are transitions for which the number of input places is not equal to the number of output places.
+     
+     1.3.4  The state is represented by the disctribution of tokens over places (also referred to as marking)
+     
+2. Petri Nets - Workflow Patterns
+
+    * Sequence  ---  *Parallelism  --- *Parallelism: AND-Split  ---- * Parallelism:AND-Join  ---* Deferred Choice
+    
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993550-74ba0f09-371b-4ddc-bf77-a5017f88e888.png" alt="" width="150" height="50"> ---
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993602-22751e92-7912-4bde-a3ae-518e6819e992.png" alt="" width="150" height="50">--- 
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993625-675d73e2-55ec-48ea-bd61-51fa51c5b8ae.png" alt="" width="180" height="50"> ---
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993654-97507e14-3071-48a7-9cc6-962d31229709.png" alt="" width="150" height="50">---
+<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993669-68845b95-0635-44a7-817a-5eb6f7a3cc60.png" alt="" width="150" height="50">   
+     
+  
+
 
 
 
