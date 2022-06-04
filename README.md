@@ -42,7 +42,7 @@ Module 5. Process Mining
 
 (4)Business Process Modeling Lifecycle:
 
-<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991833-8b5a9ff7-4ffa-4313-ab6d-9adaf77a57ee.png" alt="" width="1000" height="500"> 
+<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171991833-8b5a9ff7-4ffa-4313-ab6d-9adaf77a57ee.png" alt="" width="800" height="400"> 
 
 (5)Aspects in evaluating Business Process: 
 
@@ -51,6 +51,7 @@ Module 5. Process Mining
    ii. Understandability: comprehension (can use colors, annotations, etc.).
   
    iii. Complexity: Enable comparing models & Improving models.
+
  
  (6) Control-flow Patterns
  
@@ -60,9 +61,29 @@ Module 5. Process Mining
     
     *Multi-choice   ---   *Asatructured Synchronoizing Merge  ---  * Multi Merge   ---  * Deferred Choice  ---  *Milestone
     
- <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992960-a0596301-2d14-4576-9dd7-537520e371c1.png" alt="" width="150" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992977-b1ff5707-f327-4432-b35b-8c6a8c27890b.png" alt="" width="150" height="50">--- <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993002-015b3538-5be1-4bc8-b84c-693cc5760056.png" alt="" width="180" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993015-a0c59d00-f136-4669-8cc0-cc9706943587.png" alt="" width="150" height="50">--- <img loading="lazy" class="https://user-images.githubusercontent.com/60782937/171993317-dda4cbc6-342d-4d10-9dc4-781abf346884.png" alt="" width="150" height="50"> 
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992960-a0596301-2d14-4576-9dd7-537520e371c1.png" alt="" width="150" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992977-b1ff5707-f327-4432-b35b-8c6a8c27890b.png" alt="" width="200" height="50">--- <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993002-015b3538-5be1-4bc8-b84c-693cc5760056.png" alt="" width="200" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993015-a0c59d00-f136-4669-8cc0-cc9706943587.png" alt="" width="150" height="50">---
+<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993317-dda4cbc6-342d-4d10-9dc4-781abf346884.png" alt="" width="180" height="50">
 
-![image](https://user-images.githubusercontent.com/60782937/171993317-dda4cbc6-342d-4d10-9dc4-781abf346884.png)
+    * Cancel Task  ---  *Cancel Case  --- * Cancel Region  ---- * Arbitrary Cycles  ---* Structured Loop
+    
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993550-74ba0f09-371b-4ddc-bf77-a5017f88e888.png" alt="" width="150" height="50"> ---
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993602-22751e92-7912-4bde-a3ae-518e6819e992.png" alt="" width="150" height="50">--- 
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993625-675d73e2-55ec-48ea-bd61-51fa51c5b8ae.png" alt="" width="180" height="50"> ---
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993654-97507e14-3071-48a7-9cc6-962d31229709.png" alt="" width="150" height="50">---
+<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993669-68845b95-0635-44a7-817a-5eb6f7a3cc60.png" alt="" width="150" height="50">
+
+   *Implicit Terminal   ------ *Explicit Terminal  ------ *Transient Trigger  ------*Persistant Trigger
+   
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993843-4fcee20c-9957-4c32-89b7-86f3c5b2c194.png" alt="" width="150" height="50"> ---
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993858-aa60da6d-2dcd-40e2-a705-4796c0682dbe.png" alt="" width="150" height="50">--- 
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993951-30f2f215-090b-4f92-9348-d1257c2bd424.png" alt="" width="150" height="50"> ---
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171994005-9da9825a-7995-483a-8453-65277336508f.png" alt="" width="150" height="50">---
+
+(7) Presentation Patterns
+
+
+
+
 
 
 
