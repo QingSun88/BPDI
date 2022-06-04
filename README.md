@@ -46,13 +46,26 @@ Module 5. Process Mining
 
 (5)Aspects in evaluating Business Process: 
 
-  i. Expressiveness: workflow patterns (control, data, resource).
+   i. Expressiveness: workflow patterns (control, data, resource).
   
-  ii. Understandability: comprehension (can use colors, annotations, etc.).
+   ii. Understandability: comprehension (can use colors, annotations, etc.).
   
-  iii. Complexity: Enable comparing models & Improving models.
+   iii. Complexity: Enable comparing models & Improving models.
  
  (6) Control-flow Patterns
+ 
+    *Sequence   --- *parallel Split   --- *Synchronoization   --- *Exclusive Choice  ---  *Simple Merge   
+    
+<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992800-8cdd50c8-95c2-4ffb-aca9-c4a2f7487d9b.png" alt="" width="150" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992738-c96c25d7-31ab-4295-b481-477b0f876b9c.png" alt="" width="180" height="50">--- <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992747-60b19fc6-23b7-4694-87f6-0faa66cb19f9.png" alt="" width="180" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992757-0e668d4c-2df9-49d5-89e5-3439a08bfa26.png" alt="" width="180" height="50">--- <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992774-f0d93e14-dc61-4f60-a1c5-78db97895bc4.png" alt="" width="180" height="50"> 
+    
+    *Multi-choice   ---   *Asatructured Synchronoizing Merge  ---  * Multi Merge   ---  * Deferred Choice  ---  *Milestone
+    
+ <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992960-a0596301-2d14-4576-9dd7-537520e371c1.png" alt="" width="150" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171992977-b1ff5707-f327-4432-b35b-8c6a8c27890b.png" alt="" width="150" height="50">--- <img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993002-015b3538-5be1-4bc8-b84c-693cc5760056.png" alt="" width="180" height="50"> ---<img loading="lazy" class="alignnone wp-image-643" src="https://user-images.githubusercontent.com/60782937/171993015-a0c59d00-f136-4669-8cc0-cc9706943587.png" alt="" width="150" height="50">--- <img loading="lazy" class="https://user-images.githubusercontent.com/60782937/171993317-dda4cbc6-342d-4d10-9dc4-781abf346884.png" alt="" width="150" height="50"> 
+
+![image](https://user-images.githubusercontent.com/60782937/171993317-dda4cbc6-342d-4d10-9dc4-781abf346884.png)
+
+
+
  
 
 
